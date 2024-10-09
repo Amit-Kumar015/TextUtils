@@ -1,3 +1,25 @@
+# TextUtils
+
+**TextUtils** is a simple web application for performing various text manipulation tasks. This tool helps users with operations like counting words, characters, changing case, removing extra spaces, and more. It's designed to make text processing fast and efficient.
+
+## Features
+
+- **Word Count**: Counts the total number of words in a given text.
+- **Character Count**: Calculates the number of characters (including spaces).
+- **Uppercase/Lowercase Conversion**: Converts text to uppercase or lowercase.
+- **Remove Extra Spaces**: Removes extra spaces between words.
+- **Text Copying**: Allows users to copy the modified text to the clipboard.
+
+## Tech Stack
+
+- **Frontend**:
+  - HTML5, CSS3, JavaScript
+  - React.js 
+
+- **Styling**:
+  - Bootstrap 
+  - Custom CSS for additional styling
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
