@@ -46,11 +46,11 @@ export default function Form1(props) {
           <Form.Control as="textarea" value={text} placeholder='Enter the text here' onChange={handleOnChange} rows={8} style={{backgroundColor: props.mode === "dark"?"#252424":"white", color: props.mode === "dark"?"white":"black"}} />
         </Form.Group>
 
-        <button className="btn btn-primary mx-2" onClick={handleUpcase}>Convert to Uppercase</button>
-        <button className="btn btn-primary mx-2" onClick={handleLocase}>Convert to Lowercase</button>
-        <button className="btn btn-primary mx-2" onClick={handleCapital}>Capitalise</button>
-        <button className="btn btn-primary mx-2" onClick={handleSpace}>Remove Spaces</button>
-        <button className="btn btn-primary mx-2" onClick={handleClear}>Clear All</button>
+        <button className="btn btn-primary m-2" onClick={handleUpcase}>Convert to Uppercase</button>
+        <button className="btn btn-primary m-2" onClick={handleLocase}>Convert to Lowercase</button>
+        <button className="btn btn-primary m-2" onClick={handleCapital}>Capitalise</button>
+        <button className="btn btn-primary m-2" onClick={handleSpace}>Remove Spaces</button>
+        <button className="btn btn-primary m-2" onClick={handleClear}>Clear All</button>
 
         <div className="summary my-4">
           <h3>Your text summary</h3>

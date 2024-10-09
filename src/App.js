@@ -8,7 +8,6 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import About from './components/About';
 
 function App() {
   const [mode, setMode] = useState("light")
@@ -45,7 +44,6 @@ function App() {
         <Alert alert={alert} />
         <Routes>
           <Route exact path='/' element={<Form mode={mode} showAlert={showAlert} />}></Route>
-          <Route exact path='/about' element={<About />}></Route>
         </Routes>
       </Router>
     </>
